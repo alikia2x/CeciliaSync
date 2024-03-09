@@ -1,6 +1,6 @@
 {
     "name": "ceciliasync",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "private": false,
     "type": "module",
     "scripts": {
@@ -13,7 +13,7 @@
     "dependencies": {
         "nuxt": "^3.10.3",
         "primevue": "^3.49.1",
-        "vue": "^3.4.19",
+        "vue": "^3.4.21",
         "vue-router": "^4.3.0"
     },
     "devDependencies": {
