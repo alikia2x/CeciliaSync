@@ -11,6 +11,8 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
+        "bullmq": "^5.4.2",
+        "ignore": "^5.3.1",
         "nuxt": "^3.10.3",
         "primevue": "^3.49.1",
         "vue": "^3.4.21",
