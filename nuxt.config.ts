@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import watchDir from "./server/hooks/watchDir";
-import listDir from "./server/api/utils/listDir";
+
+import gitignoreList from "./server/api/utils/gitignoreList";
+import watchFolder from "./server/hooks/watchFolder";
 
 export default defineNuxtConfig({
     devtools: {
@@ -29,10 +30,8 @@ export default defineNuxtConfig({
     hooks: {
         "nitro:init": () => {
             console.log("Initialization hook triggered.");
-            // watchDir("/Users/alikia/Code/CeciliaSync/");
-            const directoryPath = "/Users/alikia/Code/CeciliaSync/";
-            const filesInDirectory = listDir(directoryPath);
-            console.log("Files to be watched:", filesInDirectory);
+            // const dir = "/Users/alikia/Code/CeciliaSync/";
+            // watchFolder(dir);
         }
     }
 });
