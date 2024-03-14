@@ -37,7 +37,6 @@
 .indicator::before{
     content: '';
     position: absolute;
-    top: 0;
     right: 0;
     width: 0.7rem;
     height: 0.7rem;
