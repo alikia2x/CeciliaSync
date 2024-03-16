@@ -1,5 +1,5 @@
 import watch from "node-watch";
-import gitignoreList from "../api/utils/gitignoreList";
+import gitignoreList from "../utils/gitignoreList";
 import path from "path";
 
 export default function (dir: string) {
